@@ -50,5 +50,14 @@ input[type="submit"]{
     border-radius: 7px;
     cursor: pointer;
     width: 100%;
+    transition: .5s ease;
 }
 
+input[type="submit"]:hover{
+    background-color: rgb(105, 126, 105);
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
